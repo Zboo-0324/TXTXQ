@@ -2,8 +2,8 @@ import os
 import shutil
 
 firstdir = 'D:/Desktop/ex/'  # 文件原路径
-tardir = 'D:/Desktop/'  # 文件目标路径路径
-pathdir = os.listdir(firstdir)  # 获取所在路径下的所有文件
+tardir = 'D:/Desktop/'  # 文件目标路径
+pathdir = os.listdir(firstdir)  # 获取原路径下的所有文件
 
 path = []
 for path1 in pathdir:
